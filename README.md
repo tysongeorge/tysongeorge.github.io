@@ -1,2 +1,4 @@
-# tysongeorge.github.io
-## use the https://pages-themes.github.io/minimal/ theme
+# About:
+This repo contains the source code to my personal site. 
+
+

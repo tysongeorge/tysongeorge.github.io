@@ -1,0 +1,63 @@
+
+html, body {
+	height: 100%
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+body {
+	background: #282a36;
+	/*top: 50px;*/
+	font-family: "consolas", sans-sefif;
+}
+
+footer {
+	color: white;
+	background-color: #282a36;
+	padding: 2px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+	color: #ffb86c;
+}
+a:visited {
+	color: #8be9fd;
+}
+
+h1 {
+	color: white;
+	line-height: 16px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	line-height: 14px;
+	text-align: center;
+}
+
+p {
+	color: white;
+	left: 35%;
+	font-family: "consolas", sans-sefif;
+	font-size: 18px;
+}
+
+hr {
+	width=40%;
+}
