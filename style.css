@@ -1,4 +1,3 @@
-
 html, body {height: 100%}
 
 html {display: table; margin: auto;}
@@ -8,7 +7,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	/*top: 50px;*/
-	font-family: "consolas", sans-sefif;
+	font-family: "consolas", sans-serif;
 }
 
 footer {
@@ -39,9 +38,16 @@ h1 {
 	text-align: center;
 }
 
+u1#menu li {display: inline-block;}
+
+div {
+	padding: 8px;
+}
+
 p {
 	color: white;
 	left: 35%;
-	font-family: "consolas", sans-sefif;
+	font-family: "consolas", sans-serif;
+	text-align: center;
 	font-size: 18px;
 }
