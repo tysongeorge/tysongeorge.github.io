@@ -1,9 +1,16 @@
 html, body {height: 100%}
 
+main {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
 html {display: table; margin: auto;}
 
 body {
-	background: #282a36;
+	background: #282828;
 	display: table-cell;
 	vertical-align: middle;
 	/*top: 50px;*/
@@ -12,7 +19,7 @@ body {
 
 footer {
 	color: white;
-	background-color: #282a36;
+	background-color: #282828;
 	text-align: center;
 	padding: 2px;
 }
@@ -21,14 +28,15 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	center: 80%;
 }
 
 a:link {
-	color: #ffb86c;
+	color: #81A1C1;
 }
 
 a:visited {
-	color: #ffb86c
+	color: #81A1C1
 }
 
 h1 {
@@ -42,11 +50,13 @@ u1#menu li {display: inline-block;}
 
 div {
 	padding: 8px;
+	align-content: center;
+	margin: auto;
 }
 
-p {
-	color: white;
-	left: 35%;
+p { 
+	margin: auto;
+ 	color: white;
 	font-family: "consolas", sans-serif;
 	text-align: center;
 	font-size: 18px;
